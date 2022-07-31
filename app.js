@@ -16,5 +16,9 @@ app.get('', (req, res) =>{
     res.render('main')
 })
 
+app.get('/message', (req, res) =>{
+    res.render('message')
+})
+
 const port = process.env.PORT || 3000;
 app.listen(port, () => console.info(`listening to port ${port}`))

@@ -1,32 +1,85 @@
 body{
-    background-image: url(../img/princess2.jpg);
-    background-position: center; 
-    background-size: cover
-}
-    
-img{
-    width: 25%;
-    height: 25%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 15%;
+    direction: rtl;
 }
 
-/* #audio{
+#myHeader{
+    background-image: url(../img/header3.webp);
+    /* background-color: #1E90FF; */
+    height: 100px;
+    margin-top: 0;
+}
+#image{
+    margin-right: 10px;
+}
+
+img {
+    width: 12%;
+    height:10%;
+}
+
+#texts{
+    color: white;
+}
+
+.content{
+    text-align: right;
+}
+
+.person img{
+    width: 30%;
+    height:30%;
+    float: none;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 20pc;
+}
+
+/* .person{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 } */
 
-@media only screen and (max-width: 500px) {
+/* .message h1{
+    padding-right: 30%;
+} */
+
+/* @media only screen and (max-width: 1200px) {
+
+    #texts{
+        text-align: right;
+        margin-top: 1%;
+        padding-top: 1%;
+    }   
+} */
+
+@media only screen and (max-width: 750px) {
     img{
-        width: 30%;
-        height: 30%;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 15%;
-    }    
+        padding-top: 2.5%;
+        float: right;
+        width: 12%;
+        height:12%;
+    }
+    #texts{
+        text-align: right;
+        margin-top: .50%;
+        padding-top: .50%;
+        margin-right: 15%;
+    }   
+}
+
+@media only screen and (max-width: 500px) {
+
+    img{
+        padding-top: 2%;
+        float: right;
+        width: 15%;
+        height:15%;
+    }
+    #texts{
+        text-align: right;
+        margin-top: .25%;
+        padding-top: .25%;
+        margin-right: 20%;
+    }   
 }
