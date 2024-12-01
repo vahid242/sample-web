@@ -24,5 +24,5 @@ app.get('/election', (req, res) =>{
     res.render('election')
 })
 
-const port = process.env.PORT || 8000;
+const port = process.env.PORT || 3000;
 app.listen(port, () => console.info(`listening to port ${port}`))
